@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet" />
     <title>Page Title</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="icon" type="image/x-icon" href="toast-slice.jpeg" />
   </head>
   <body>
     <header>
@@ -20,79 +25,130 @@
       </nav>
     </header>
     <main>
-      <div class="hero">
-        <img src="Toaster.jpg" alt="Toaster image" />
-        <div>
-          <h1>Saving toasters, one slice at a time!</h1>
-          <p>
-            Welcome to CrispyFix, your local toaster service and repair company.
-            We are the saviors of the breakfast realm, giving toasters the
-            tender, loving care they deserve.
-          </p>
-        </div>
+      <div class="plain-wrapper">
+        <section class="hero">
+          <img src="toaster.png" alt="Toaster image" />
+          <div>
+            <h1>Saving toasters, one slice at a time!</h1>
+            <p>
+              Welcome to CrispyFix, your local toaster service and repair
+              company. We are the saviors of the breakfast realm, giving
+              toasters the tender, loving care they deserve.
+            </p>
+          </div>
+        </section>
       </div>
-      <div class="cards">
-        <div class="card">
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
-            minima maxime. Repellendus enim vitae quod quidem, esse magnam
-            reiciendis alias quibusdam quas sed odio suscipit!
-          </p>
-        </div>
-        <div class="card">
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
-            minima maxime. Repellendus enim vitae quod quidem, esse magnam
-            reiciendis alias quibusdam quas sed odio suscipit!
-          </p>
-        </div>
-        <div class="card">
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
-            minima maxime. Repellendus enim vitae quod quidem, esse magnam
-            reiciendis alias quibusdam quas sed odio suscipit!
-          </p>
-        </div>
+      <div class="color-wrapper">
+        <section class="cards">
+          <div class="card">
+            <h2>Expert Technicians</h2>
+            <p>
+              Our skilled technicians are trained to diagnose, repair, and
+              optimize various toaster brands and models, using their extensive
+              expertise to deliver top-notch results.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Customer Satisfaction</h2>
+            <p>
+              Your satisfaction is our ultimate goal. We take pride in seeing
+              your smiling faces when you experience the joy of a fully
+              operational toaster once again.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Timely Solutions</h2>
+            <p>
+              We understand the importance of a properly functioning toaster in
+              your daily routine. That's why we strive to complete repairs
+              promptly, so you can get back to enjoying your perfectly toasted
+              delights.
+            </p>
+          </div>
+        </section>
       </div>
-      <div class="banner">
-        <div class="offer">
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-            illum illo facere explicabo, eligendi quibusdam?
-          </p>
-        </div>
-        <div class="questions">
-          <h2>Lorem, ipsum dolor.</h2>
-          <form action="post">
-            <label for="opt-1"
-              ><input type="radio" name="radio" id="opt-1" />Option 1</label
-            >
-            <label for="opt-2"
-              ><input type="radio" name="radio" id="opt-2" />Option 2</label
-            >
-            <label for="opt-3"
-              ><input type="radio" name="radio" id="opt-3" />Option 3</label
-            >
-            <label for="opt-4"
-              ><input type="radio" name="radio" id="opt-4" />Option 4</label
-            >
-            <button type="submit">Submit</button>
-          </form>
-        </div>
+      <div class="plain-wrapper">
+        <section class="banner">
+          <img src="broken-toaster.png" alt="a broken toaster" />
+          <div class="offer">
+            <h2>Get A Free Quote Now!</h2>
+            <p>
+              We believe in transparency and excellence. You'll always receive
+              honest assessments, fair quotes, and a commitment to delivering
+              reliable repairs
+            </p>
+            <button class="contact-us-button">Contact Us</button>
+          </div>
+          <div class="questions">
+            <h3>How do you like your toast?</h3>
+            <form action="post">
+              <label for="opt-1"
+                ><input type="radio" name="radio" id="opt-1" />Warm Bread</label
+              >
+              <label for="opt-2"
+                ><input type="radio" name="radio" id="opt-2" />Golden</label
+              >
+              <label for="opt-3"
+                ><input type="radio" name="radio" id="opt-3" />Slight
+                Char</label
+              >
+              <label for="opt-4"
+                ><input type="radio" name="radio" id="opt-4" />Burnt</label
+              >
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
+      </div>
+      <div class="color-wrapper">
+        <section class="testimonials">
+          <div class="testimonial">
+            <h3>Sarah M. - A Toasty Morning Advocate</h3>
+            <p>
+              "I thought my trusty old toaster was destined for the trash bin,
+              but CrispyFix worked their magic! My mornings are back to being
+              deliciously toasty. Their quick service and friendly staff made
+              the whole experience a breeze."
+            </p>
+          </div>
+          <div class="testimonial">
+            <h3>Mark T. - A Satisfied Customer</h3>
+            <p>
+              "Prompt, professional, and proficient—that's CrispyFix for you! I
+              had my doubts about getting my toaster repaired, but they exceeded
+              my expectations. Now, my family and I can enjoy evenly toasted
+              bread once again. Thanks a bunch!"
+            </p>
+          </div>
+          <div class="testimonial">
+            <h3>Emily L. - Lifesavers for Toast Lovers</h3>
+            <p>
+              "I can't thank CrispyFix enough for rescuing my breakfast routine.
+              Their technicians diagnosed the issue with my toaster in no time
+              and had it working perfectly before I even knew it. If you're
+              facing a toaster crisis, these guys are the ones to call!"
+            </p>
+          </div>
+          <div class="testimonial">
+            <h3>Michael B. - Flawless Service</h3>
+            <p>
+              "From start to finish, CrispyFix showcased top-tier
+              professionalism. Their attention to detail, genuine parts, and
+              reasonable pricing are a rarity in today's world. My toaster is
+              running like new, and I'm one happy customer. Highly recommended!"
+            </p>
+          </div>
+        </section>
       </div>
     </main>
     <footer>
-      <p>Copyright</p>
+      <p>Copyright CrispyFix 1928</p>
       <img src="" alt="logo" />
       <ul class="footer-nav">
-        <li><a href="">Home</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
       </ul>
     </footer>
     <script src="scripts.js"></script>
