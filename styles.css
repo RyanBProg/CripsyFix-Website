@@ -79,6 +79,18 @@ button:hover {
   align-items: center;
   margin: 50px 50px;
   gap: 50px;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .hero img {
@@ -101,6 +113,7 @@ button:hover {
   justify-content: center;
   max-width: 1000px;
   gap: 20px;
+  margin: 0 auto;
 }
 
 .card,

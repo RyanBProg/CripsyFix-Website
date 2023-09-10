@@ -10,12 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
       rel="stylesheet" />
     <title>Page Title</title>
-    <link rel="icon" type="image/x-icon" href="toast-slice.jpeg" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
   </head>
   <body>
     <header>
       <nav class="nav-bar">
-        <h3>CrispyFix</h3>
+        <h3>
+          <span class="nav-title title-start">Crispy</span
+          ><span class="nav-title title-end">Fix</span>
+        </h3>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
@@ -81,19 +84,34 @@
           </div>
           <div class="questions">
             <h3>How do you like your toast?</h3>
-            <form action="post">
+            <form action="" id="question-form">
               <label for="opt-1"
-                ><input type="radio" name="radio" id="opt-1" />Warm Bread</label
+                ><input
+                  type="radio"
+                  name="radio"
+                  id="opt-1"
+                  value="warm-bread" />Warm Bread</label
               >
               <label for="opt-2"
-                ><input type="radio" name="radio" id="opt-2" />Golden</label
+                ><input
+                  type="radio"
+                  name="radio"
+                  id="opt-2"
+                  value="golden" />Golden</label
               >
               <label for="opt-3"
-                ><input type="radio" name="radio" id="opt-3" />Slight
-                Char</label
+                ><input
+                  type="radio"
+                  name="radio"
+                  id="opt-3"
+                  value="slight-char" />Slight Char</label
               >
               <label for="opt-4"
-                ><input type="radio" name="radio" id="opt-4" />Burnt</label
+                ><input
+                  type="radio"
+                  name="radio"
+                  id="opt-4"
+                  value="burnt" />Burnt</label
               >
               <button type="submit">Submit</button>
             </form>
