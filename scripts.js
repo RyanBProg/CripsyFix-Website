@@ -15,3 +15,14 @@ form.addEventListener("submit", (e) => {
     incorrectAnswerMessage.style.display = "block";
   }
 });
+
+const mobMenu = document.getElementById("dropdown-menu");
+const mobMenuIcon = document.getElementById("mob-menu-icon");
+
+mobMenuIcon.addEventListener("click", (e) => {
+  if (mobMenu.style.display === "flex") {
+    mobMenu.style.display = "none";
+  } else {
+    mobMenu.style.display = "flex";
+  }
+});
