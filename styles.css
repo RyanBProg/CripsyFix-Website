@@ -67,6 +67,18 @@ button:hover {
   color: gray;
 }
 
+.mob-menu-icon {
+  height: 1.3rem;
+  display: none;
+}
+
+.mob-menu-icon:hover,
+.mob-menu-icon:focus {
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: opacity(60%);
+}
+
 /* HERO */
 .plain-wrapper {
   max-width: 1000px;
@@ -164,6 +176,10 @@ label input {
   margin-right: 10px;
 }
 
+label input:hover {
+  cursor: pointer;
+}
+
 .questions form button {
   display: block;
   margin: 0px auto;
@@ -180,12 +196,23 @@ button {
   font-size: 1rem;
 }
 
+#incorrect-answer-message {
+  display: none;
+  color: rgb(208, 35, 35);
+}
+
+#correct-answer-message {
+  display: none;
+  color: rgb(20, 118, 20);
+}
+
 .contact-us-button {
   margin-top: 10px;
 }
 
 footer {
-  height: 6rem;
+  height: 6.5rem;
+  padding: 20px;
   background: var(--black-grad);
   display: flex;
   justify-content: center;
@@ -196,6 +223,10 @@ footer {
 .footer-nav li a {
   font-size: 0.9rem;
   font-weight: normal;
+}
+
+footer img {
+  height: 50px;
 }
 
 footer p {
@@ -236,5 +267,9 @@ footer p {
 @media only screen and (max-width: 650px) {
   .nav-bar ul {
     display: none;
+  }
+
+  .mob-menu-icon {
+    display: block;
   }
 }

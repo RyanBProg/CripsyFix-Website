@@ -25,6 +25,7 @@
           <li><a href="about.html">About</a></li>
           <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
+        <img class="mob-menu-icon" src="menu-icon.png" alt="menu icon" />
       </nav>
     </header>
     <main>
@@ -89,30 +90,32 @@
                 ><input
                   type="radio"
                   name="radio"
-                  id="opt-1"
-                  value="warm-bread" />Warm Bread</label
+                  value="warm-bread"
+                  id="opt-1" />Warm Bread</label
               >
-              <label for="opt-2"
+              <label for="correct-opt"
                 ><input
                   type="radio"
                   name="radio"
-                  id="opt-2"
+                  id="correct-opt"
                   value="golden" />Golden</label
               >
               <label for="opt-3"
                 ><input
                   type="radio"
                   name="radio"
-                  id="opt-3"
-                  value="slight-char" />Slight Char</label
+                  value="slight-char"
+                  id="opt-3" />Slight Char</label
               >
               <label for="opt-4"
                 ><input
                   type="radio"
                   name="radio"
-                  id="opt-4"
-                  value="burnt" />Burnt</label
+                  value="burnt"
+                  id="opt-4" />Burnt</label
               >
+              <p id="incorrect-answer-message">Nope, try again...</p>
+              <p id="correct-answer-message">Well done, you're not weird!</p>
               <button type="submit">Submit</button>
             </form>
           </div>
@@ -152,7 +155,7 @@
     </main>
     <footer>
       <p>Copyright CrispyFix 1928</p>
-      <img src="" alt="logo" />
+      <img src="cartoon-toaster-main.png" alt="logo" />
       <ul class="footer-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
