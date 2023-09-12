@@ -5,17 +5,18 @@ const incorrectAnswerMessage = document.getElementById(
   "incorrect-answer-message"
 );
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (formInput1.checked) {
-    correctAnswerMessage.style.display = "block";
-    incorrectAnswerMessage.style.display = "none";
-  } else {
-    correctAnswerMessage.style.display = "none";
-    incorrectAnswerMessage.style.display = "block";
-  }
-});
-
+if (form) {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (formInput1.checked) {
+      correctAnswerMessage.style.display = "block";
+      incorrectAnswerMessage.style.display = "none";
+    } else {
+      correctAnswerMessage.style.display = "none";
+      incorrectAnswerMessage.style.display = "block";
+    }
+  });
+}
 const mobMenu = document.getElementById("dropdown-menu");
 const mobMenuIcon = document.getElementById("mob-menu-icon");
 
