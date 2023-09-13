@@ -1,8 +1,8 @@
 :root {
   --white-grad: radial-gradient(
     circle farthest-corner at center center,
-    #ffffff 40%,
-    #ebe9e9 100%
+    #d8d7d7 40%,
+    #adadad 100%
   );
   --gray-grad: radial-gradient(
     circle farthest-corner at center center,
@@ -144,9 +144,7 @@ button:hover {
 
 .card,
 .testimonial,
-.color-wrapper,
-.about-sub-heading,
-.about-story-text {
+.color-wrapper {
   min-height: 100%;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
   background-color: white;
@@ -155,9 +153,7 @@ button:hover {
 }
 
 .testimonial,
-.card,
-.about-sub-heading,
-.about-story-text {
+.card {
   border-radius: 10px;
 }
 
@@ -266,25 +262,33 @@ footer p {
   margin: 40px 0;
 }
 
-.about-sub-text {
+.about-sub-text,
+.about-story-text {
   margin: 0 auto;
-  width: 60ch;
-  margin-bottom: 40px;
   padding: 0 20px;
+  text-align: center;
+  max-width: 70ch;
+}
+
+.about-banner {
+  background: var(--white-grad);
+  padding: 40px 0;
+  margin: 40px 0;
 }
 
 .about-sub-heading {
+  margin: 0 auto;
+  max-width: 1000px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .ceo-statement-container {
   display: flex;
-  margin: 0 auto;
+  margin: 40px auto 40px;
   align-items: center;
   max-width: 1000px;
   gap: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
 }
