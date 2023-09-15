@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet" />
+    <title>About Us</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <h3>
+          <span class="nav-title title-start">Crispy</span
+          ><span class="nav-title title-end">Fix</span>
+        </h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+        <img
+          class="mob-menu-icon"
+          id="mob-menu-icon"
+          src="menu-icon.png"
+          alt="menu icon" />
+      </nav>
+      <div class="dropdown-menu" id="dropdown-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1 class="about-heading">How Can We Help?</h1>
+      <p class="about-sub-text">
+        At CrispyFix we love to see that all toasters get the care and attention
+        they need. If you have any toaster service or repair needs please dont
+        hesitate to get in touch.
+      </p>
+      <div class="about-banner">
+        <form action="post">
+          <label for="full-name"
+            >Full Name<input id="full-name" type="text" required
+          /></label>
+          <label for="full-name"
+            >Email<input id="full-name" type="text" required
+          /></label>
+          <label for="full-name"
+            >Contact Number<input id="full-name" type="text" required
+          /></label>
+          <label for="description"
+            >Please describe your enquiry
+            <textarea id="description" cols="30" rows="10"></textarea>
+          </label>
+          <p>
+            Please check this box if you would like to recieve regular marketing
+            information emails and promos from us.
+          </p>
+          <input type="checkbox" id="email-check" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright CrispyFix 1928</p>
+      <img src="cartoon-toaster-main.png" alt="logo" />
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
