@@ -4,11 +4,6 @@
     #d8d7d7 40%,
     #adadad 100%
   );
-  --gray-grad: radial-gradient(
-    circle farthest-corner at center center,
-    #919090 40%,
-    #595959 100%
-  );
   --black-grad: radial-gradient(
     circle farthest-corner at center center,
     #2c2b2b 40%,
@@ -23,11 +18,12 @@
 }
 
 body {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 h1 {
   font-size: 3rem;
+  letter-spacing: -0.2rem;
 }
 
 /* NAV BAR */
@@ -103,7 +99,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 50px;
+  margin: 80px 50px;
   gap: 50px;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -129,7 +125,7 @@ button:hover {
 
 /* CARDS */
 .color-wrapper {
-  background: var(--gray-grad);
+  background-color: #000000d0;
   padding: 50px;
 }
 
@@ -146,7 +142,6 @@ button:hover {
 .testimonial,
 .color-wrapper {
   min-height: 100%;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
   background-color: white;
   padding: 15px;
   width: 100%;
@@ -155,6 +150,7 @@ button:hover {
 .testimonial,
 .card {
   border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .card h2,
